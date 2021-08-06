@@ -16,7 +16,8 @@ lastName=`"Snow"`;
 // Alert the new value of `firstName` and `lastName` by concatenating them
 alert(firstName + " "+ lastName);
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
-const fullName="firstName + lastName";
+const fullName=firstName +" "+ lastName;
+
 // Declare three variables `name,` `newUser` and `isAdmin`.
 let name,newUser,isAdmin;
 // Assign your name as the value of `name`.
