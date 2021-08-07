@@ -15,7 +15,7 @@ let num2 = 32;
 - Alert message saying `I am learning [language]`
 - Alert `The value of num1 is [num1] and the value of num2 is [num2]`
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
-
+*/
 let language="JavaScript";
 alert("I am learning"+language);
 alert("The value of num1 is" +" "+num1+"the value of num2 is"+ num2);
@@ -34,7 +34,7 @@ alert(`The sum of ${num1} and ${num2} is ${num1+num1} `);
   - Log the message using console.log `Username: [userName]
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
-
+*/
 let userName=prompt("Enter your name");
 let userProfession=prompt("What is your Profession?");
 let isAdult=confirm("Are you an Adult?");
@@ -60,7 +60,7 @@ Profession:${userProfession}`);
 
 let numA=prompt("Enter 1st Number");
 let numB=prompt("Enter 2nd Number");
-alert(`sum: ${numA+numB}`);
+alert(Number(numA)+Number(numB));
 alert(`Subtraction: ${numA-numB}`);
 alert(`Multiplication: ${numA*numB}`);
 console.log(`Subtraction: ${numA-numB}`);
