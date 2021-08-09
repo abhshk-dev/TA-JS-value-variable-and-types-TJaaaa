@@ -185,3 +185,24 @@ switch(true){
   - If`freezing` alert`Get your sweeter on`
   - Anything else should alert`Not a valid input`
 */
+
+
+let weather=prompt(`What is the weather like outside`);
+
+switch(true){
+  case weather=="sunny":
+    alert(`Wear a T-Shirt`);
+    break;
+  case weather=="rainy":
+    alert(`Don't forget to take your raincoat`);
+    break;
+  case weather=="hot":
+    alert(`Get a Hanky`);
+    break;
+  case weather=="freezing":
+    alert(`Get your sweater on`);
+    break;
+  default:
+    alert(`Not a valid input`);
+    break;
+}
