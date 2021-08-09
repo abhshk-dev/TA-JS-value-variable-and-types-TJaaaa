@@ -4,7 +4,7 @@
 1. Write a program that asks the user for a number and check the following conditions:
 
   - `if` the number is even print the message " number is even"
-  - `if` the number is odd print the message "number is odd"
+  - `if` the number is odd print the message "number is odd" */
 
 let num=Number(prompt("Enter a number"));
 if(num%2==0){
@@ -13,7 +13,7 @@ if(num%2==0){
 else{
   alert("The number is odd");
 }
-*/
+
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
 let num1=Number(prompt(`Enter 1st number`));
@@ -33,16 +33,16 @@ num1 > num2 ?  alert(`${num1} is the max value`): alert(`${num2} is the max valu
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
-//let houseName=prompt("Enter your House Name");
-//if(houseName=="stark"){
-  //alert("Winter is coming");
-//}
-//else if(houseName=="lannister"){
-//alert("A lannister always pays his debt");
-//}
-//else{
-  //alert("All men must die");
-//}
+let houseName=prompt("Enter your House Name");
+if(houseName ==="stark"){
+  alert("Winter is coming");
+}
+else if(houseName ==="lannister"){
+alert("A lannister always pays his debt");
+}
+else{
+  alert("All men must die");
+}
 // 5. Convert the above code using`?` terniary operator
 
 //houseName=="stark" ? alert("Winter is coming") : houseName=="lannister" ? alert("A lannister always pays his debt") :  alert("All men must die");
@@ -104,7 +104,7 @@ switch(numMonth){
 
 let salary=Number(prompt(`Enter the salary`));
 let inHand;
-switch(true || false){
+switch(true ){
   case salary<=20000:
     inHand= salary-(10/100*salary);
     alert(`IN HAND AMOUNT IS: ${inHand} `);
@@ -190,16 +190,16 @@ switch(true){
 let weather=prompt(`What is the weather like outside`);
 
 switch(true){
-  case weather=="sunny":
+  case weather==="sunny":
     alert(`Wear a T-Shirt`);
     break;
-  case weather=="rainy":
+  case weather==="rainy":
     alert(`Don't forget to take your raincoat`);
     break;
-  case weather=="hot":
+  case weather==="hot":
     alert(`Get a Hanky`);
     break;
-  case weather=="freezing":
+  case weather==="freezing":
     alert(`Get your sweater on`);
     break;
   default:
