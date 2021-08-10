@@ -10,7 +10,24 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
-
+let age=+prompt(`Enter your age`);
+switch(true){
+  case age>=12 && age<=55:
+    alert(`You can participate in the marathon`);
+    break;
+  case age>=4 && age<=11:
+    alert(`You are too young to participate in the marathon`);
+    break;
+  case age<4:
+    alert(`Hey Kiddo! Can You Walk ?`);
+    break;
+  case age>55:
+    alert(`You are too old to participate in the marathon`);
+    break;
+  default:
+    alert(`Enter a valid input`);
+    break;
+}
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
@@ -27,7 +44,11 @@ Program to calculate the sum of first n natural numbers(1,2,3...n are known as n
 👇
 */
 // [Your code goes here]
-
+let n=+prompt(`Enter a number`), sum=0;
+for(let i=1;i<=n;i++){
+  sum+=i;
+}
+alert(`the sum of first n natural numbers is ${sum}`);
 /* Switch Statement
 
  🎖Using switch statement do the following
