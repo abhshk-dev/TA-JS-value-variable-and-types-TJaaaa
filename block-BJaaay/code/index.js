@@ -13,39 +13,39 @@
 // Log all the values from 1 to 10 using while loop
 
 let i=1;
-/*
+
 while(i<=10){
     console.log(i);
     i++;
 }
-*/
 
-/*even numbers
+
+/*even numbers*/
 while(i<=10){
     if(i%2===0){
         console.log(i);
     }
     i++;
 }
-*/
 
-/* odd numbers
+
+/* odd numbers*/
 while(i<=10){
     if(i%2 !==0){
         console.log(i)
     }
     i++;
 }
-*/
 
-/* sum of numbers 
+
+/* sum of numbers */
 
 let sum=0;
 for(i=1; i<=10;i++){
     sum=sum+i;
 }
 console.log(sum);
-*/
+
 
 /* logging numbers 1-10*/
 
