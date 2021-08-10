@@ -79,10 +79,10 @@ Example:
 
 let num1=Number(prompt(`Enter 1st number`));
 let num2=Number(prompt(`Enter 2nd number`));
-if(num1===num2){
-    alert(`true`);
-}
 
-else {
-    alert(`false`)
+if(isNaN(num1)||isNaN(num2)){
+    alert(`Enter a valid number`);
+}
+else{
+    alert(num1==num2);
 }
