@@ -15,4 +15,6 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
+let billAmount=(TAX_RATE+PHONE_PRICE+ACCESSORY_PRICE);
+
 // ⛑ Answer of the above will `$334.76`.
